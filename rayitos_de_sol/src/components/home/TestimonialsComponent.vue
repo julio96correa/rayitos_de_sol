@@ -93,7 +93,7 @@ export default {
     margin-top: 5%;
     margin-bottom: 10%;
     border: 1px var(--color-dark-green) solid;
-    width: 60%;
+    width: 80%;
     border-radius:3em 0 3em;
 }
 
@@ -116,6 +116,12 @@ export default {
     .testimonial__author:nth-child(3) {
         margin-top: 0;
     }
+
+    .section-testimonial {
+    border-radius: 30px;
+
+    
+}
 }
 
 @media (max-width: 426px) {
@@ -125,11 +131,13 @@ export default {
     /* background-color: blue; */
     width: auto;
     margin: 1rem 2rem;
-    border-radius: 0;
+    border-radius: 10px;
 }
 
   .title {
     padding: 0.7em;
+    background: none;
+    border-radius: 0; 
   }
 
   .testimonial {

@@ -124,7 +124,9 @@ export default defineComponent({
     const isClient = ref(false);
 
     const toggleLogin = () => {
-      router.push('/login-client');
+    setTimeout(() => {
+        router.push('/login-client');
+      }, 90);
     };
 
 
@@ -145,6 +147,7 @@ export default defineComponent({
 <style scoped>
 /* Contenedor principal */
 .LoginContractor__container{
+  margin-top: 7em;
   display: flex;
   justify-content: center;
   align-items: center;

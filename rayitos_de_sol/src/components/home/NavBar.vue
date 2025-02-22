@@ -131,7 +131,8 @@ export default {
 /* Responsive para móviles */
 @media (max-width: 768px) {
   .navbar {
-    height: 5.2em;
+    /* height: 5.2em; */
+    height: 7em;
     display: flex;
     justify-content: space-between;
     align-items: center;

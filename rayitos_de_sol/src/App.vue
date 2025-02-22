@@ -1,6 +1,6 @@
 <template>
   <NavBar />
-  <home />
+  <!-- <home /> -->
   <router-view />
   <FooterComponent />
 </template>
@@ -8,7 +8,7 @@
 <script>
 
 import NavBar from "@/components/home/NavBar.vue"; 
-import Home from "./components/home/Home.vue"
+// import Home from "./components/home/Home.vue"
 import FooterComponent from "./components/home/FooterComponent.vue";
 // import Calculator from "./components/calculator/Calculator.vue";
 // import LoginClient from "./components/client/LoginClient.vue";
@@ -18,7 +18,7 @@ export default {
   name: "App",
   components: {
     NavBar,
-    Home,  
+    // Home,  
     FooterComponent,
     // Calculator,
     // LoginClient,

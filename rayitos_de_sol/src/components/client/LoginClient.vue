@@ -93,7 +93,9 @@ export default defineComponent({
     const isContractor = ref(false);
 
     const toggleLogin = () => {
-      router.push('/login-contractor');
+    setTimeout(() => {
+        router.push('/login-contractor'); 
+      }, 90);
     };
 
     return {
@@ -112,6 +114,7 @@ export default defineComponent({
 <style scoped>
 /* Contenedor principal */
 .LoginContractor__container{
+  margin-top: 7em;
   display: flex;
   justify-content: center;
   align-items: center;

@@ -19,6 +19,7 @@
 
 <style scoped>
 .user_container-principal {
+  margin-top: 7em;
   height: 100vh;
   width: 100%;
   background-color: #EFE3C2;
