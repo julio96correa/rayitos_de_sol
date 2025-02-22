@@ -2,7 +2,7 @@
   <nav class="navbar">
     <!-- Logo -->
     <div class="navbar__logo">
-      <img src="../../assets/img/images.jpeg" alt="Logo">
+      <img src="../../../public/favicon20.png" alt="Logo">
     </div>
 
     <!-- Checkbox para el menú hamburguesa -->
@@ -54,10 +54,11 @@ export default {
 }
 
 .navbar__logo img {
-  height: 5rem;
+  height: 4rem;
   border-radius: 50%;
   object-fit: cover;
 }
+
 
 .navbar__menu {
   display: flex;

@@ -77,5 +77,10 @@ const pothoPath = computed(() => {
     border: 3px var(--color-dark-green) solid;
 }
 
+@media (max-width: 426px) {
+  .testimonial__author{
+    width: 100%;  
+  }
+}
 
 </style>

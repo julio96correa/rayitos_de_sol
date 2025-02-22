@@ -92,18 +92,26 @@
     
   }
 
- .card{
+.card{
     flex: 1;
     background-color: var(--background-color-primary);
     max-width: 400px;
- }
+}
 
- @media (max-width: 768px){
+@media (max-width: 768px){
     .card-gallery{
         flex-direction: column;
         gap: 2rem;
         align-items: center;
     }
- }
+}
 
+@media (max-width: 426px) {
+  .card-gallery{
+    padding: 1rem 2rem;
+  }
+  .features__content{ 
+    padding: 2rem 3rem;
+  }
+}
   </style>

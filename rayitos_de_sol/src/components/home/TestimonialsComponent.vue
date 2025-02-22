@@ -80,7 +80,6 @@ export default {
     box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1),
         0px 4px 8px rgba(0, 0, 0, 0.05);
     margin: 20px 2rem;
-
 }
 
 .title {
@@ -117,5 +116,25 @@ export default {
     .testimonial__author:nth-child(3) {
         margin-top: 0;
     }
+}
+
+@media (max-width: 426px) {
+  .section-testimonial {
+    padding: 0;
+    padding-bottom: 1rem;
+    /* background-color: blue; */
+    width: auto;
+    margin: 1rem 2rem;
+    border-radius: 0;
+}
+
+  .title {
+    padding: 0.7em;
+  }
+
+  .testimonial {
+  padding: 0 8% ;
+  }
+
 }
 </style>

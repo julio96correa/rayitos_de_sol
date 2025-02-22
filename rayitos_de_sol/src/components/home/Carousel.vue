@@ -166,4 +166,9 @@ export default defineComponent({
 #right {
   right: -40px;
 }
+@media (max-width: 426px) {
+  .section-carrusel {
+  padding: 5rem 0;
+  }
+}
 </style>
